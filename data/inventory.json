@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Laptop",
+    "price": 60000,
+    "quantity": 5,
+    "category": "Ele",
+    "added_at": "2025-07-19T23:02:09.076421"
+  },
+  {
+    "name": "Pluse",
+    "price": 2,
+    "quantity": 500,
+    "category": "Candies",
+    "added_at": "2025-07-19T23:06:04.140107"
+  },
+  {
+    "name": "Moblie",
+    "price": 12222,
+    "quantity": 20,
+    "category": "Ele",
+    "added_at": "2025-07-19T23:06:22.280225"
+  },
+  {
+    "name": "Kurta",
+    "price": 5099,
+    "quantity": 25,
+    "category": "Fashion",
+    "added_at": "2025-07-19T23:07:29.816366"
+  }
+]
