@@ -25,3 +25,9 @@ def add_product():
         return redirect(url_for('main.index'))
     
     return render_template('add.html')
+
+@main.route('/delete/<string:name>', methods=['POST'])
+def delete_product(name):
+    inv = Inventory()
+    success = inv.remove_product(name)
+    return redirect(url_for('main.index'))
