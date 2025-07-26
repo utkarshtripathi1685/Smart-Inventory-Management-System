@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Product</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        label { display: block; margin: 10px 0 5px; }
+        input { padding: 5px; width: 250px; }
+        button { margin-top: 15px; padding: 10px 15px; }
+    </style>
+</head>
+<body>
+    <h2>Add New Product</h2>
+    <form method="POST">
+        <label>Product Name:</label>
+        <input type="text" name="name" required>
+
+        <label>Price:</label>
+        <input type="number" name="price" required>
+
+        <label>Quantity:</label>
+        <input type="number" name="quantity" required>
+
+        <label>Category:</label>
+        <input type="text" name="category" required>
+
+        <button type="submit">Add Product</button>
+    </form>
+    <br>
+    <a href="/">🔙 Back to Inventory</a>
+</body>
+</html>
