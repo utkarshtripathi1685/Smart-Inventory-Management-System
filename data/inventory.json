@@ -1,1 +1,20 @@
-{}
+{
+  "utkarsh": [
+    {
+      "name": "Laptop",
+      "price": 50000,
+      "quantity": 10,
+      "category": "Electronics",
+      "added_at": "2025-07-17T10:00:00"
+    }
+  ],
+  "grocerystore": [
+    {
+      "name": "Sugar",
+      "price": 45,
+      "quantity": 100,
+      "category": "Grocery",
+      "added_at": "2025-07-17T10:02:00"
+    }
+  ]
+}
