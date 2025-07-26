@@ -1,5 +1,11 @@
 from modules.product import Product
 from modules.inventory import Inventory
+from app import create_app
+
+app = create_app()
+
+if __name__ == '__main__':
+    app.run(debug=True)
 
 def main():
     inv = Inventory()
